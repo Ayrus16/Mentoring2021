@@ -1,0 +1,63 @@
+/*index.html*/
+.navbar {
+	background-color: #fff;
+	padding-left: 150px;
+	padding-right: 150px;
+	filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+}
+.home {
+	padding-top: 140px;
+	background-color: #D2E4E7;
+	height: 500px;
+}
+.gambar-home {
+	float: right;
+}
+.kotak {
+	background-color: #fff;
+	width: 110px;
+	height: 130px;
+	box-shadow: 1px 1px 3px rgba(0,0,2,0.5);
+	border-radius: 5px;
+	float: left;
+	margin-left: 15px;
+}
+.isi {
+	height: 500px;
+	background-color: #fff;
+}
+footer {
+	height: 150px;
+	background-color: #2C5D64;
+}
+
+/*artikel*/
+.artikel {
+	height: 550px;
+	background-color: #fff;
+}
+
+/*menusehat*/
+.menusehat {
+	height: 550px;
+	background-color: #fff;
+}
+
+/*obatvitamin*/
+.obatvitamin {
+	height: 550px;
+	background-color: #fff;
+}
+
+/*tanyadokter*/
+.tanyadokter {
+	height: 550px;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
