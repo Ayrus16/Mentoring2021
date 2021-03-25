@@ -35,6 +35,9 @@
 .footer .card-text li{
 	margin-top: 10px;
 }
+.foot-line{
+	border-top: 2px solid #FDE74C;
+}
 
 /* Global End */
 
