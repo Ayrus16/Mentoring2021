@@ -1,10 +1,44 @@
-/*index.html*/
+@font-face{
+	font-family: 'Nunito';
+	scr: url('assets/Nunito/Nunito-Regular.ttf');
+}
+/* Global */
 .navbar {
 	background-color: #fff;
 	padding-left: 150px;
 	padding-right: 150px;
 	filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
 }
+/* footer */
+.footer {
+	background-color: #2C5D64;
+	color: azure;
+	font-family: 'Nunito';
+	padding-top: 20px;
+}
+
+.footer img{
+	height: 100%;
+}
+.copyright{
+	padding-top: 10px;
+}
+
+.footer-content ul {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+.footer .footer-content{
+	margin-top: 20px;
+}
+.footer .card-text li{
+	margin-top: 10px;
+}
+
+/* Global End */
+
+/*index.html*/
 .home {
 	padding-top: 140px;
 	background-color: #D2E4E7;
@@ -26,10 +60,7 @@
 	height: 500px;
 	background-color: #fff;
 }
-footer {
-	height: 150px;
-	background-color: #2C5D64;
-}
+
 
 /*artikel*/
 .artikel {
