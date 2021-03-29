@@ -66,9 +66,17 @@
 
 
 /*artikel*/
-.artikel {
-	height: 550px;
+.artikel{
+	height: 700px;
 	background-color: #fff;
+	padding-top: 100px;
+}
+.text-penjelas, p  {
+	font-size: 13px;
+}
+.btn-baru {
+	background-color: #D2E4E7;
+	font-size: 13px;
 }
 
 /*menusehat*/
@@ -80,7 +88,17 @@
 /*obatvitamin*/
 .obatvitamin {
 	height: 550px;
+	padding-top: 100px;
 	background-color: #fff;
+}
+.kotak-obat {
+	background-color: #fff;
+	width: 110px;
+	height: 130px;
+	box-shadow: 1px 1px 3px rgba(0,0,2,0.5);
+	border-radius: 5px;
+	float: left;
+	margin-left: 15px;
 }
 
 /*tanyadokter*/
@@ -88,10 +106,12 @@
 	height: 700px;
 	background-color: #fff;
 	padding-top: 100px;
-	font-size: 15px;
 }
 .btn-danger, .chat {
 	margin-left: 85px;
+}
+.konsultasi {
+	font-size: 15px;
 }
 .card {
 	filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
