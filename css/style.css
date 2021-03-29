@@ -38,6 +38,10 @@
 .foot-line{
 	border-top: 2px solid #FDE74C;
 }
+.footer .app-download{
+	height: 50px;
+	margin-bottom: 10px;
+}
 
 /* Global End */
 
