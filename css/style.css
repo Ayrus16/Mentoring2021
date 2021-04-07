@@ -125,18 +125,21 @@
 	float: left;
 	margin-left: 15px;
 }
+.obatvitamin, .card-title {
+	font-size: 17px;
+}
 
 
 /*tanyadokter*/
 .tanyadokter {
-	height: 700px;
+	height: 760px;
 	background-color: #fff;
 	padding-top: 100px;
 }
 .btn-danger, .chat {
 	margin-left: 85px;
 }
-.konsultasi {
+.card-text {
 	font-size: 15px;
 }
 .card {
