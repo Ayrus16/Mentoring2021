@@ -112,7 +112,6 @@
 
 /*obatvitamin*/
 .obatvitamin {
-	height: 550px;
 	padding-top: 100px;
 	background-color: #fff;
 }
@@ -128,6 +127,7 @@
 .obatvitamin, .card-title {
 	font-size: 17px;
 }
+.cari { border-radius: 25px; }
 
 
 /*tanyadokter*/
@@ -165,5 +165,5 @@
 	color: #324d52;
 }
 
-
+/*halaman about*/
 
