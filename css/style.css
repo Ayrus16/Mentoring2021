@@ -141,10 +141,33 @@
 	color: #2C5D64;
 }
 
-/*menusehat*/
-.menusehat {
-	height: 550px;
-	background-color: #fff;
+/*about*/
+.poster-about1 .jumbotron {
+ background-image: url(../assets/img/stetoskop.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 600px;
+}
+
+.poster-about1 h1 {
+	font-weight: 400;
+	margin-top: 380px;
+}
+.poster-about1 h3 {
+	font-weight: 500;
+}
+.slide-2about span {
+	color: #74CBD7;
+}
+.poster-about2 .jumbotron {
+	background-image: url(../assets/img/face.jpg);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 height: 500px;
+}
+.poster-about2 h1 {
+	font-weight: 400;
+	margin-top: 300px;
 }
 
 /*obatvitamin*/
