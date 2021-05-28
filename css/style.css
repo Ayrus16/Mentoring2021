@@ -151,45 +151,8 @@
 	color: #2C5D64;
 }
 
-/*about*/
-.poster-about1 .jumbotron {
- background-image: url(../assets/img/stetoskop.jpg);
- background-size: cover;
- background-repeat: no-repeat;
- height: 600px;
-}
-.caption-about1 {
-	text-shadow: 2px 2px 4px #000000;
-}
-.poster-about1 h1 {
-	font-weight: 400;
-	margin-top: 380px;
-}
-.poster-about1 h3 {
-	font-weight: 500;
-}
-.slide-2about span {
-	color: #61B8C4;
-}
-.slide-4 span {
-	color: #61B8C4;
-}
-.slide-4 h4 {
-	font-weight: 600;
-}
-.poster-about2 .jumbotron {
-	background-image: url(../assets/img/face.jpg);
-	 background-size: cover;
-	 background-repeat: no-repeat;
-	 height: 500px;
-}
-.poster-about2 h1 {
-	font-weight: 400;
-	margin-top: 300px;
-}
-.adira-kiri {
-	margin-right: 150px;
-}
+/*about pindah ke bawah*/
+
 
 
 /*obatvitamin*/
@@ -227,6 +190,7 @@
 
 .chat {
 	margin-left: 120px;
+	float: right;
 }
 .card-text {
 	font-size: 15px;
@@ -236,6 +200,11 @@
 }
 .card-footer {
 	font-size: 13px;
+}
+.card-footer i{
+	font-size: 16px;
+	display: inline;
+
 }
 .icon-cari input {
 	padding-left: 40px;
@@ -266,4 +235,80 @@
 }
 
 /*halaman about*/
-
+.about .why-us img{
+	height: 150px;
+	border: 1px solid #2C5D64;
+	padding: 10px;
+	border-radius: 50%;
+}
+.about .partner img{
+	max-height: 70px;
+}
+.about .partner .manulife-kanan{
+	margin-right: 20px;
+}
+.poster-about1 .jumbotron {
+	
+	background-image: url(../assets/img/stetoskop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+ }
+ .caption-about1 {
+	 text-shadow: 2px 2px 4px #000000;
+ }
+ .poster-about1 h1 {
+	 font-weight: 400;
+	 margin-top: 380px;
+	 font-family: 'Nunito';
+ }
+ .poster-about1 h3 {
+	 font-weight: 300;
+	 font-family: 'Nunito';
+ }
+ .slide-2about span {
+	 color: #00A5CB;
+ }
+ .slide-2about h2,
+ .slide-2about h5 {
+	font-family: 'Nunito';
+}
+.slide-2about h2 {
+	font-weight: bold;
+	color: #3D3D3D;
+}
+.slide-2about h5 {
+	font-weight: 400;
+	color: #3D3D3D;
+}
+ .slide-4 span {
+	 color: #61B8C4;
+ }
+ .slide-4 h4 {
+	 font-weight: 600;
+ }
+ .poster-about2 .jumbotron {
+	 background-image: url(../assets/img/face.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 500px;
+ }
+ .poster-about2 h1 {
+	 font-weight: 400;
+	 margin-top: 300px;
+ }
+ .adira-kiri {
+	 margin-right: 150px;
+ }
+ .why-us .col-md-3{
+	 transition: all .3s ease-in-out;
+ }
+ .why-us .col-md-3:hover {
+	transform: scale(1.1);
+ }
+ .partner .col-md-3{
+	transition: all .3s ease-in-out;
+}
+.partner .col-md-3:hover {
+ transform: scale(1.1);
+}
