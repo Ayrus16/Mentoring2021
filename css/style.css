@@ -158,7 +158,9 @@
  background-repeat: no-repeat;
  height: 600px;
 }
-
+.caption-about1 {
+	text-shadow: 2px 2px 4px #000000;
+}
 .poster-about1 h1 {
 	font-weight: 400;
 	margin-top: 380px;
@@ -167,7 +169,13 @@
 	font-weight: 500;
 }
 .slide-2about span {
-	color: #74CBD7;
+	color: #61B8C4;
+}
+.slide-4 span {
+	color: #61B8C4;
+}
+.slide-4 h4 {
+	font-weight: 600;
 }
 .poster-about2 .jumbotron {
 	background-image: url(../assets/img/face.jpg);
@@ -198,26 +206,26 @@
 	float: left;
 	margin-left: 15px;
 }
-.obatvitamin, .card-title {
+/*.obatvitamin, .card-title {
 	font-size: 17px;
-}
+}*/
 .cari { border-radius: 25px; }
 
-.obatvitamin .card{
+/*.obatvitamin .card{
   border-radius: 45px;
-}
-.obatvitamin .card h5{
+}*/
+/*.obatvitamin .card h5{
 	margin: 0 ;
 	padding: 0;
-}
+}*/
 /*tanyadokter*/
 .tanyadokter {
-	min-height: 760px;
+	min-height: 700px;
 	background-color: #fff;
 	padding-top: 100px;
 }
 
-.btn-danger, .chat {
+.chat {
 	margin-left: 120px;
 }
 .card-text {
@@ -240,6 +248,17 @@
 	left: 5px;
 	top: 3px;
 	padding: 9px 8px;
+}
+.btn-langkah {
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	font-weight: 700;
+}
+.garis {
+	width: 2px;
+	height: 60px;
+	background-color: grey;
 }
 
 .info .title{
