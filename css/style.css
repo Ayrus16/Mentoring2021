@@ -5,6 +5,18 @@
 *{
 	font-family: 'Nunito';
 }
+.udl {
+	display: inline;
+	background-image: linear-gradient(#2C5D64, #2C5D64);
+	background-size: 0% 2px;
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	transition: background .5s ease-out;
+}
+
+.udl:hover {
+	background-size: 100% 2px;
+}
 /* Global */
 .navbar {
 	background-color: #2C5D64;
@@ -81,6 +93,7 @@
 }
 .layanan-khusus h2{
 	border-bottom: solid 1px lightgray;
+	transition: all .3s ease-in-out;
 }
 .layanan-khusus img{
 	margin-bottom: 20px;
@@ -91,7 +104,15 @@
 .layanan-khusus a:hover{
 	text-decoration: none;
 }
-
+.layanan-khusus:hover h2 {
+	border-bottom: solid 1px #2C5D64;
+}
+.layanan-khusus .layanan{
+	transition: all .3s ease-in-out;
+}
+.layanan-khusus .layanan:hover{
+	transform: scale(1.05);
+}
 .poster .jumbotron{
  background-image: url(../assets/img/man-w-phone.jpg);
  background-size: cover;
