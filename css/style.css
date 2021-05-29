@@ -64,7 +64,7 @@
 .home {
 	padding-top: 140px;
 	background-color: #D2E4E7;
-	height: 500px;
+	min-height: 500px;
 }
 .gambar-home {
 	float: right;
@@ -89,7 +89,7 @@
 	margin-top: 50px;
 }
 .layanan-khusus img{
-	height: 100px;
+	min-height: 100px;
 }
 .layanan-khusus h2{
 	border-bottom: solid 1px lightgray;
